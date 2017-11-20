@@ -1,5 +1,7 @@
 FROM ubuntu:14.04
 
+ENV SHELL /bin/bash
+
 RUN apt-get update
 RUN apt-get install -y software-properties-common curl
 
